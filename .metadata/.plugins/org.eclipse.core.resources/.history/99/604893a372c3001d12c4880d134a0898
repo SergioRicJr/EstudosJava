@@ -1,0 +1,13 @@
+package student;
+
+public class Student {
+	
+	
+	public Student(int studentId, String name, String ssn) {
+		this.name = name;
+		this.studentId = studentId;
+		this.ssn = ssn;
+	}
+	// @override faz que metodo possa ser sobrescrevido sem problemas
+	// podendo permitir que objeto seja instanciado com ou sem parametros definidos
+}
