@@ -12,24 +12,6 @@ public class Student {
 		this.studentId = studentId;
 		this.ssn = ssn;
 	}
-	
-	public static void printa() {
-		System.out.println("oi");
-	}
 	// @override faz que metodo possa ser sobrescrevido sem problemas
 	// podendo permitir que objeto seja instanciado com ou sem parametros definidos
-		
-	public int getStudentId(){
-		return studentId;
-	}
-	
-	public void setStudent(int studentId) {
-		this.studentId = studentId;
-	}
-	
-	public String getName() {
-		return this.name;
-	}
-	
-
 }
