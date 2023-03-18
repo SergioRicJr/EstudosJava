@@ -16,6 +16,9 @@ public class Student {
 	public static void printa() {
 		System.out.println("oi");
 	}
+	public void printaa() {
+		System.out.println("olá");
+	}
 	// @override faz que metodo possa ser sobrescrevido sem problemas
 	// podendo permitir que objeto seja instanciado com ou sem parametros definidos
 		
